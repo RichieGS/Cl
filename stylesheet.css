@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-bg-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  margin-top: 120px;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+
+.para-div1 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-para1 {
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+
+.header-para2 {
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: hsl(201, 11%, 66%);
+  letter-spacing: 0.5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  
+}
+
+.ios-btn {
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  box-shadow: 0px 1px 5px hsl(171, 66%, 44%);
+  transition: border 0.3s;
+}
+
+.ios-btn:hover {
+  cursor: pointer;
+  border: 2px solid hsl(171, 97%, 31%);
+}
+
+.mac-btn {
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 5px;
+  letter-spacing: 1px;
+  box-shadow: 0px 1px 5px hsl(233, 100%, 69%);
+  transition: border 0.3s;
+}
+
+.mac-btn:hover {
+  cursor: pointer;
+  border: 2px solid hsl(233, 91%, 56%);
+}
+
+.para-div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para-div2 .para1 {
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 16px;
+}
+
+.para-div2 .para2 {
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  font-size: 12px;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  width: 470px;
+  margin-bottom: 60px;
+}
+
+.section1 {
+position: relative;
+display: flex;
+width: 100%;
+}
+
+.section1 .image-computer {
+  /* position: absolute; */
+  width: 700px;
+  margin-left: -35px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+}
+
+.para-div3 {
+  padding-top: 30px;
+  width: 320px;
+}
+
+.para-div3 .theme {
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.para-div3 .write-up {
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 15px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2 .para1 {
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  font-size: 30px;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section2 .para2 {
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 15px;
+  text-align: center;
+  width: 600px;
+  margin-bottom: 100px;
+}
+
+.section2 .devices-img {
+  width: 800px;
+}
+
+.section2 .para3 {
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  font-size: 35px;
+  color: hsl(210, 10%, 33%); 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section2 .para4 {
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 18px; 
+}
+
+.vision {
+  display: flex;
+}
+
+.vision .para1 {
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%); 
+}
+
+.vision .para2 {
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 15px;
+  width: 330px;
+}
+
+.blacklist, 
+.snippets, 
+.preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+}
+
+.blacklist img, 
+.snippets img, 
+.preview img {
+  width: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.tech-comp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1100px;
+  margin-bottom: 100px;
+}
+
+.tech-comp img {
+  width: 120px;
+}
+
+.parag1 {
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  font-size: 30px;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.parag2 {
+  width: 550px;
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  background-color: hsl(0, 0%, 91%);
+}
+
+.footer-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-elements img {
+  width: 50px;
+  height: 50px;
+  margin-top: 35px;
+}
+
+.list-items {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -200px;
+}
+
+.list-items ul {
+  list-style: none;
+  
+}
+
+.footer-elements ul li {
+  margin-bottom: 20px;
+}
+
+.footer-elements ul a{
+  margin: 0 50px 0 0;
+  text-decoration: none;
+  font-family: Bai Jamjuree;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footer-elements ul a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media svg {
+  margin-top: 15px;
+  transition: fill 0.3s;
+}
+
+.social-media svg:hover {
+  fill: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+
